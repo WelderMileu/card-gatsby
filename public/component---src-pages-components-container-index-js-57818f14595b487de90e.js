@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{wi07:function(e,n,t){"use strict";t.r(n);var c=t("q1tI"),i=t.n(c);n.default=function(e){return i.a.createElement("div",{className:"min-h-screen flex justify-center items-center"},e.children)}}}]);
+//# sourceMappingURL=component---src-pages-components-container-index-js-57818f14595b487de90e.js.map

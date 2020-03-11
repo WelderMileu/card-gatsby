@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+.card {
+	@apply border w-2/3 rounded rounded-lg flex flex-col  shadow-lg justify-center items-center p-5;
+}
+
+.card-name {
+	@apply uppercase font-bold text-lg text-green-600 text-center;
+}
+
+.btn {
+	@apply py-2 ml-2 font-semibold w-full text-lg px-10 rounded rounded-lg;
+}
+
+@screen sm {
+	.card {
+		@apply w-1/2;
+	}
+}
+
+@screen lg {
+	.card {
+		@apply flex-row;
+	}
+}
+
+@tailwind utilities;

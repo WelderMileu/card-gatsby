@@ -1,3 +1,5 @@
+const path = require(`path`);
+
 module.exports = {
 	siteMetadata : {
 		title:`Menininha`,
@@ -11,6 +13,16 @@ module.exports = {
 			options : {
 				postCssPlugins : [require("tailwindcss")],
 			}
-		}	
+		},{
+			resolve : `gatsby-source-filesystem`,
+			options : {
+				name : `images`,
+				path : path.join(__dirname, `src`, `pages`, `images`)
+			},
+
+		},
+			`gatsby-plugin-sharp`,
+			`gatsby-transformer-sharp`	
+
 	]
 }

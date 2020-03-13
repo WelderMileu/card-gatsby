@@ -12,7 +12,7 @@ function App(){
 				description="There are many variations of passages of Lorem Ipsum available, 
 					  but the majority have suffered alteration in some form."
 				openGraph={{
-					locale : 'pt-BR'
+					locale : 'en'
 				}}
 			/>
 			

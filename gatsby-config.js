@@ -1,13 +1,18 @@
 const path = require(`path`);
 
 module.exports = {
-	siteMetadata : {
-		title:`Menininha`,
-		siteUrl: `https://card-gatsby.netlify.com/`,
-		description: `Menina em um card construido com tailwindcss`,
-	},
-
 	plugins : [
+		{
+			resolve : `gatsby-plugin-next-seo`,
+			options : {
+				openGraph : {
+					type : `website`,
+					locale : `pt-br`,
+					url : ` https://card-gatsby.netlify.com`,
+					site_name : `Site da Menina`
+				}
+			}
+		},
 		{
 			resolve : `gatsby-plugin-postcss`,
 			options : {

@@ -27,7 +27,7 @@ const Card = props => {
 				/>
 				<div>
 					<p className="card-name">{props.title}</p>
-					<p className="text-green-400">SEO da Empresa Criança</p>
+					<p className="text-green-800">SEO da Empresa Criança</p>
 				</div>
 			</div>
 			<div className="p-2 lg:p-0 lg:w-2/3">
@@ -38,7 +38,7 @@ const Card = props => {
 					<Button 
 						style="outline"
 						content="Sign"
-						bg="bg-green-400"
+						bg="bg-green-800"
 					/>
 					<Button 
 						style="outline-none"

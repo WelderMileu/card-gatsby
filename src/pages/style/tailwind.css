@@ -6,7 +6,7 @@
 }
 
 .card-name {
-	@apply uppercase font-bold text-lg text-green-600 text-center;
+	@apply uppercase font-bold text-lg text-green-900 text-center;
 }
 
 .btn {

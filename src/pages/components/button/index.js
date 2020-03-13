@@ -9,7 +9,7 @@ const Button = props => {
 	const outline = model.concat(model1);
 
 	// Config  Outline-none
-	const model2 = [`${props.bg}`,"border","border-green-500","text-green-500"];
+	const model2 = [`${props.bg}`,"border","border-green-800","text-green-800"];
 	const outlineNone = model.concat(model2);
 
 	// Validando o tipo o button.
